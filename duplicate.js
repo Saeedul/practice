@@ -1,4 +1,4 @@
-const names = ['abul', 'babul', ' cabul', 'dabul', 'ebul', 'pitbull', 'babul', 'abul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul'];
+const names = ['abul', 'babul', 'cabul', 'dabul', 'ebul', 'pitbull', 'babul', 'abul', 'kabul', 'gabul', 'cabul', 'babul', 'abul', 'abul'];
 
 function removeDuplicate(names) {
     const unique = [];
