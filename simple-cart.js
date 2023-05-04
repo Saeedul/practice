@@ -9,11 +9,14 @@ const shoppingCart = [
 ]
 
 function totalCost(products) {
-
+    let sum = 0;
     for (let i = 0; i < products.length; i++) {
-        const product = products[i]; console.log(product);
+        const product = products[i];
+        sum = sum + product.price;
+        // console.log(product);
 
     }
+    return sum;
 
 
 }
