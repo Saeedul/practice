@@ -9,7 +9,7 @@ function findBiggestString(array) {
 
     return biggestString;
 }
-//
+/
 let strings = ['sajid', 'mamun', 'kamal', 'jubayer bin rased', 'chinku'];
 let result = findBiggestString(strings);
 console.log('The biggest string:', result);
