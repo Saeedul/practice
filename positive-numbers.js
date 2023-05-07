@@ -11,4 +11,4 @@ function findPositiveNumbers(numbers) {
 
 let array = [45, 87, 96, 11, 63, -56, 71, 28];
 let positiveNumbers = findPositiveNumbers(array);
-console.log(positiveNumbers);  
+console.log(positiveNumbers);
