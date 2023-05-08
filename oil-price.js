@@ -1,4 +1,4 @@
-function calculateTotalPrice(quantity, unitPrice) {
+function oilPrice(quantity, unitPrice) {
     return quantity * unitPrice;
 }
 
@@ -12,9 +12,9 @@ let petrolUnitPrice = 130; // Price per unit for petrol
 let octaneQuantity = 15; // Number of units for octane
 let octaneUnitPrice = 135; // Price per unit for octane
 
-let dieselTotalPrice = calculateTotalPrice(dieselQuantity, dieselUnitPrice);
-let petrolTotalPrice = calculateTotalPrice(petrolQuantity, petrolUnitPrice);
-let octaneTotalPrice = calculateTotalPrice(octaneQuantity, octaneUnitPrice);
+let dieselTotalPrice = oilPrice(dieselQuantity, dieselUnitPrice);
+let petrolTotalPrice = oilPrice(petrolQuantity, petrolUnitPrice);
+let octaneTotalPrice = oilPrice(octaneQuantity, octaneUnitPrice);
 
 console.log("Diesel Total Price: Tk. " + dieselTotalPrice);
 console.log("Petrol Total Price: Tk. " + petrolTotalPrice);
